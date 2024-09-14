@@ -1,0 +1,12 @@
+.btn {
+    padding: 9px 22px;
+    font-weight: 600;
+    border-radius: 99em;
+    color: var(--theme-color-white);
+    background-color: var(--theme-color-brown);
+    display: inline-block;
+
+    &:hover {
+        background-color: var(--theme-color-secondary);
+    }
+}

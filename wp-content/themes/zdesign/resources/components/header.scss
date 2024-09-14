@@ -1,4 +1,11 @@
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    
     .header__inner {
         display: flex;
         flex-wrap: wrap;
@@ -7,14 +14,15 @@
     }
 
     .header__btn {
+        letter-spacing: 0.03em;
         font-weight: 600;
         padding: 10px 23px;
         border-radius: 99em;
         color: var(--theme-color-white);
-        background-color: var(--theme-color-secondary);
+        background-color: var(--theme-color-brown);
 
         &:hover {
-            background-color: var(--theme-color-brown);
+            background-color: var(--theme-color-secondary);
         }
     }
 }
