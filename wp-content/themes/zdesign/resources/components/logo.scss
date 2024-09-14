@@ -1,0 +1,14 @@
+.logo {
+    display: block;
+    width: 110px;
+
+    &:hover {
+        opacity: .7;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

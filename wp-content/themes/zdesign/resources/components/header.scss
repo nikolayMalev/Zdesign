@@ -1,8 +1,20 @@
 .header {
-    & .header__nav {
+    .header__inner {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .header__btn {
+        font-weight: 600;
+        padding: 10px 23px;
+        border-radius: 99em;
+        color: var(--theme-color-white);
+        background-color: var(--theme-color-secondary);
+
+        &:hover {
+            background-color: var(--theme-color-brown);
+        }
     }
 }

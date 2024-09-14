@@ -10,31 +10,29 @@
     <header class="header">
         <div class="shell">
             <div class="header__inner">
-                <div class="header__nav">
-                    <a href="#" class="logo">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/logo.svg" alt="">
-                    </a><!-- /.logo -->
+                <a href="#" class="logo">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/logo.svg" alt="">
+                </a><!-- /.logo -->
 
-                    <nav class="nav">
-                        <ul>
-                            <li>
-                                <a href="">Начало</a>
-                            </li>
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a href="">Начало</a>
+                        </li>
 
-                            <li>
-                                <a href="">За Нас</a>
-                            </li>
+                        <li>
+                            <a href="">За Нас</a>
+                        </li>
 
-                            <li>
-                                <a href="">Проекти</a>
-                            </li>
+                        <li>
+                            <a href="">Проекти</a>
+                        </li>
 
-                            <li>
-                                <a href="">Контакти</a>
-                            </li>
-                        </ul>
-                    </nav><!-- /.nav -->
-                </div><!-- /.header__nav -->
+                        <li>
+                            <a href="">Контакти</a>
+                        </li>
+                    </ul>
+                </nav><!-- /.nav -->
 
                 <div class="header__actions">
                     <a href="" class="header__btn btn">

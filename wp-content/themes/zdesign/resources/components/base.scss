@@ -1,0 +1,32 @@
+:root {
+    --theme-color-primary: #d68b47;
+    --theme-color-secondary: #ae5a22;
+    --theme-color-white: #fff;
+    --theme-color-black: #000;
+    --theme-color-brown: #7c3817;
+    --theme-color-bronze: #e9a97e;
+    --theme-color-gold: #f3c17b;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+}
+
+img {
+    display: block;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    transition: color .4s, background-color .4s, opacity .4s;
+}

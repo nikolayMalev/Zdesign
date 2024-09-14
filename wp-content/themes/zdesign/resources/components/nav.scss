@@ -1,0 +1,19 @@
+.nav {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    a {
+        color: var(--theme-color-secondary);        
+        font-weight: 600;
+
+        &:hover {
+            color: var(--theme-color-gold);
+        }
+    }
+}

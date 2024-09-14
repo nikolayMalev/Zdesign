@@ -1,0 +1,12 @@
+.hero {
+    color: var(--theme-color-white);
+
+    .hero__content {
+        position: relative;
+        min-height: 90svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+    }
+}
