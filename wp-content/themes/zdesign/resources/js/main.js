@@ -1,1 +1,1 @@
-import './modules/slider-testimonials';
+import ('./modules/slider-testimonials.js');

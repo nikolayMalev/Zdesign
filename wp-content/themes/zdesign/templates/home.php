@@ -42,4 +42,27 @@ Template Name: Homepage
     </div><!-- /.section__image -->
 </section><!-- /.section-image-content -->
 
+<section class="section-slider-testimonials">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/" alt="" class="">
+
+    <div class="slider-testimonials splide-testimonials splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <div class="splide__slide">
+                    <h1>one</h1>
+                </div><!-- /.splide__slide -->
+                <div class="splide__slide">
+                    <h2>two</h2>
+                </div><!-- /.splide__slide -->
+                <div class="splide__slide">
+                    <h1>three</h1>
+                </div><!-- /.splide__slide -->
+                <div class="splide__slide">
+                    <h4>four</h4>
+                </div><!-- /.splide__slide -->
+            </ul><!-- /.splide__list -->
+        </div><!-- /.splide__track -->
+    </div><!-- /.slider-testimonials -->
+</section><!-- /.section-slider-testimonials -->
+
 <?php get_footer(); ?>
