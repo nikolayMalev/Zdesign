@@ -1,0 +1,28 @@
+.slider-testimonials {
+    margin-block: 60px;
+    position: relative;
+    z-index: 2;
+
+    .splide__slide {
+        padding: 50px 46px 36px 36px;
+        color: var(--theme-color-black);
+        background-color: var(--theme-color-alt);
+        margin-right: 40px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .splide__slide h3 {
+        flex: 1;
+        margin-bottom: 30px;
+    }
+
+    .splide__arrows {
+        display: none;
+    }
+
+    .splide__slide h6 {
+        margin-top: auto;
+    }
+}

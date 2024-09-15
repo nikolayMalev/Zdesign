@@ -1,0 +1,13 @@
+.section-slider-testimonials {
+    padding-block: 60px;
+    height: 60svh;
+    color: var(--theme-color-white);
+
+    .section__head {
+        text-align: center;
+        padding-inline: 50px;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 40px;
+    }
+}

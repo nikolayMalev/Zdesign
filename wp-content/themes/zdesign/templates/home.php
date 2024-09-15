@@ -14,6 +14,10 @@ Template Name: Homepage
             </h1>
 
             <h2>Проектиране / Реализация</h2>
+
+            <a href="" class="hero__btn btn">
+                Свържи се с Нас
+            </a>
         </div>
     </div><!-- /.shell-->
 </section><!-- /.hero -->
@@ -42,24 +46,36 @@ Template Name: Homepage
     </div><!-- /.section__image -->
 </section><!-- /.section-image-content -->
 
-<section class="section-slider-testimonials">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/" alt="" class="">
+<section class="section-slider-testimonials image-fit bg-overlay">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/slider-bg.png" alt="" class="">
+
+    <header class="section__head">
+        <h2>Ето Какво Мислят Нашите Клиенти</h2>
+    </header><!-- /.section__head -->
 
     <div class="slider-testimonials splide-testimonials splide">
         <div class="splide__track">
             <ul class="splide__list">
-                <div class="splide__slide">
-                    <h1>one</h1>
-                </div><!-- /.splide__slide -->
-                <div class="splide__slide">
-                    <h2>two</h2>
-                </div><!-- /.splide__slide -->
-                <div class="splide__slide">
-                    <h1>three</h1>
-                </div><!-- /.splide__slide -->
-                <div class="splide__slide">
-                    <h4>four</h4>
-                </div><!-- /.splide__slide -->
+                <li class="splide__slide">
+                    <h3>'Професионалисти работещи с бърза ръка'</h3>
+
+                    <h6>Иван Иванов</h6>
+                </li><!-- /.splide__slide -->
+                <li class="splide__slide">
+                    <h3>'Проектът се получи точно както искахме и сме много щастливи'</h3>
+
+                    <h6>Георги Радославов</h6>
+                </li><!-- /.splide__slide -->
+                <li class="splide__slide">
+                    <h3>'Най-добрите. Спестиха ни много време и нерви'</h3>
+
+                    <h6>Александър Георгиев</h6>
+                </li><!-- /.splide__slide -->
+                <li class="splide__slide">
+                    <h3>'Всичко се случи много спокойно и без неприятни изненади'</h3>
+
+                    <h6>Благой Христов</h6>
+                </li><!-- /.splide__slide -->
             </ul><!-- /.splide__list -->
         </div><!-- /.splide__track -->
     </div><!-- /.slider-testimonials -->

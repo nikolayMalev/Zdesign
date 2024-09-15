@@ -8,5 +8,10 @@
         flex-direction: column;
         justify-content: center;
         z-index: 2;
+        align-items: start;
+    }
+
+    .hero__content .hero__btn {
+        margin-top: 40px;
     }
 }

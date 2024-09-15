@@ -6,6 +6,7 @@
     --theme-color-brown: #7c3817;
     --theme-color-bronze: #e9a97e;
     --theme-color-gold: #f3c17b;
+    --theme-color-alt: rgb(241, 239, 237);
 }
 
 body {
@@ -53,7 +54,7 @@ img {
 }
 
 a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     transition: color .4s, background-color .4s, opacity .4s;
 }
